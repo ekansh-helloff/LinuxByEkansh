@@ -248,7 +248,7 @@ $ awk '{print $1,$NF}' employee.txt
 
 
 
-$ awk 'NR==3, NR==6 {print NR,$0}' employee.txt 
+$ awk 'NR==3, NR==6 {print NR,$0}' employee.txt
 
 
 
@@ -344,7 +344,7 @@ $ awk 'BEGIN { for(i=1;i<=6;i++) print "square of", i, "is",i\*i; }'
 
 15\. ps -ef  -- In this we it doesn't show the memory utilisation 
 
-16\. ps aux
+16\. ps aux  -- In this we it doesn't show the memory utilisation
 
 kill
 
